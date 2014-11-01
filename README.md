@@ -1,7 +1,7 @@
 Tetris
 ======
 
-Tetris clone written in Swift for the iOS platform from couse that i´m taking  
+Tetris clone written in Swift for the iOS platform from course that i´m taking  
 
 
 Tetris clone written in Swift for the iOS platform. This Bloc Book is meant for educational purposes only.
