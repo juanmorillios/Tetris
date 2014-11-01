@@ -8,13 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		B9C4D5061A053F1A00DE0C0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C4D5051A053F1A00DE0C0A /* AppDelegate.swift */; };
-		B9C4D5081A053F1A00DE0C0A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B9C4D5071A053F1A00DE0C0A /* GameScene.sks */; };
 		B9C4D50A1A053F1A00DE0C0A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C4D5091A053F1A00DE0C0A /* GameScene.swift */; };
 		B9C4D50C1A053F1A00DE0C0A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C4D50B1A053F1A00DE0C0A /* GameViewController.swift */; };
 		B9C4D50F1A053F1A00DE0C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C4D50D1A053F1A00DE0C0A /* Main.storyboard */; };
 		B9C4D5111A053F1A00DE0C0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C4D5101A053F1A00DE0C0A /* Images.xcassets */; };
 		B9C4D5141A053F1A00DE0C0A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9C4D5121A053F1A00DE0C0A /* LaunchScreen.xib */; };
 		B9C4D5201A053F1B00DE0C0A /* TetrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C4D51F1A053F1B00DE0C0A /* TetrisTests.swift */; };
+		B9C4D52F1A05430600DE0C0A /* bomb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9C4D52A1A05430600DE0C0A /* bomb.mp3 */; };
+		B9C4D5301A05430600DE0C0A /* drop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9C4D52B1A05430600DE0C0A /* drop.mp3 */; };
+		B9C4D5311A05430600DE0C0A /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9C4D52C1A05430600DE0C0A /* gameover.mp3 */; };
+		B9C4D5321A05430600DE0C0A /* levelup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9C4D52D1A05430600DE0C0A /* levelup.mp3 */; };
+		B9C4D5331A05430600DE0C0A /* theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9C4D52E1A05430600DE0C0A /* theme.mp3 */; };
+		B9C4D5351A05433F00DE0C0A /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B9C4D5341A05433F00DE0C0A /* Sprites.atlas */; };
+		B9C4D53C1A0543CD00DE0C0A /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C4D5361A0543CD00DE0C0A /* background.png */; };
+		B9C4D53D1A0543CD00DE0C0A /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C4D5371A0543CD00DE0C0A /* background@2x.png */; };
+		B9C4D53E1A0543CD00DE0C0A /* gameboard.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C4D5381A0543CD00DE0C0A /* gameboard.png */; };
+		B9C4D53F1A0543CD00DE0C0A /* gameboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C4D5391A0543CD00DE0C0A /* gameboard@2x.png */; };
+		B9C4D5401A0543CD00DE0C0A /* whitebg.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C4D53A1A0543CD00DE0C0A /* whitebg.png */; };
+		B9C4D5411A0543CD00DE0C0A /* whitebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C4D53B1A0543CD00DE0C0A /* whitebg@2x.png */; };
+		B9C4D5431A054EB500DE0C0A /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C4D5421A054EB500DE0C0A /* Array2D.swift */; };
+		B9C4D5451A0585B600DE0C0A /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C4D5441A0585B500DE0C0A /* Block.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +44,6 @@
 		B9C4D5001A053F1A00DE0C0A /* Tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C4D5041A053F1A00DE0C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9C4D5051A053F1A00DE0C0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B9C4D5071A053F1A00DE0C0A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		B9C4D5091A053F1A00DE0C0A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		B9C4D50B1A053F1A00DE0C0A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		B9C4D50E1A053F1A00DE0C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +52,20 @@
 		B9C4D5191A053F1B00DE0C0A /* TetrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C4D51E1A053F1B00DE0C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9C4D51F1A053F1B00DE0C0A /* TetrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisTests.swift; sourceTree = "<group>"; };
+		B9C4D52A1A05430600DE0C0A /* bomb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bomb.mp3; sourceTree = "<group>"; };
+		B9C4D52B1A05430600DE0C0A /* drop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drop.mp3; sourceTree = "<group>"; };
+		B9C4D52C1A05430600DE0C0A /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
+		B9C4D52D1A05430600DE0C0A /* levelup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = levelup.mp3; sourceTree = "<group>"; };
+		B9C4D52E1A05430600DE0C0A /* theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = theme.mp3; sourceTree = "<group>"; };
+		B9C4D5341A05433F00DE0C0A /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		B9C4D5361A0543CD00DE0C0A /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		B9C4D5371A0543CD00DE0C0A /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		B9C4D5381A0543CD00DE0C0A /* gameboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameboard.png; sourceTree = "<group>"; };
+		B9C4D5391A0543CD00DE0C0A /* gameboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameboard@2x.png"; sourceTree = "<group>"; };
+		B9C4D53A1A0543CD00DE0C0A /* whitebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitebg.png; sourceTree = "<group>"; };
+		B9C4D53B1A0543CD00DE0C0A /* whitebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitebg@2x.png"; sourceTree = "<group>"; };
+		B9C4D5421A054EB500DE0C0A /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		B9C4D5441A0585B500DE0C0A /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,13 +108,20 @@
 			isa = PBXGroup;
 			children = (
 				B9C4D5051A053F1A00DE0C0A /* AppDelegate.swift */,
-				B9C4D5071A053F1A00DE0C0A /* GameScene.sks */,
 				B9C4D5091A053F1A00DE0C0A /* GameScene.swift */,
 				B9C4D50B1A053F1A00DE0C0A /* GameViewController.swift */,
 				B9C4D50D1A053F1A00DE0C0A /* Main.storyboard */,
 				B9C4D5101A053F1A00DE0C0A /* Images.xcassets */,
+				B9C4D5361A0543CD00DE0C0A /* background.png */,
+				B9C4D5371A0543CD00DE0C0A /* background@2x.png */,
+				B9C4D5381A0543CD00DE0C0A /* gameboard.png */,
+				B9C4D5391A0543CD00DE0C0A /* gameboard@2x.png */,
+				B9C4D53A1A0543CD00DE0C0A /* whitebg.png */,
+				B9C4D53B1A0543CD00DE0C0A /* whitebg@2x.png */,
 				B9C4D5121A053F1A00DE0C0A /* LaunchScreen.xib */,
 				B9C4D5031A053F1A00DE0C0A /* Supporting Files */,
+				B9C4D5421A054EB500DE0C0A /* Array2D.swift */,
+				B9C4D5441A0585B500DE0C0A /* Block.swift */,
 			);
 			path = Tetris;
 			sourceTree = "<group>";
@@ -96,6 +129,8 @@
 		B9C4D5031A053F1A00DE0C0A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B9C4D5341A05433F00DE0C0A /* Sprites.atlas */,
+				B9C4D5291A05430600DE0C0A /* Sounds */,
 				B9C4D5041A053F1A00DE0C0A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -116,6 +151,18 @@
 				B9C4D51E1A053F1B00DE0C0A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9C4D5291A05430600DE0C0A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B9C4D52A1A05430600DE0C0A /* bomb.mp3 */,
+				B9C4D52B1A05430600DE0C0A /* drop.mp3 */,
+				B9C4D52C1A05430600DE0C0A /* gameover.mp3 */,
+				B9C4D52D1A05430600DE0C0A /* levelup.mp3 */,
+				B9C4D52E1A05430600DE0C0A /* theme.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +246,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9C4D5141A053F1A00DE0C0A /* LaunchScreen.xib in Resources */,
+				B9C4D53D1A0543CD00DE0C0A /* background@2x.png in Resources */,
+				B9C4D5401A0543CD00DE0C0A /* whitebg.png in Resources */,
+				B9C4D53F1A0543CD00DE0C0A /* gameboard@2x.png in Resources */,
+				B9C4D53E1A0543CD00DE0C0A /* gameboard.png in Resources */,
+				B9C4D53C1A0543CD00DE0C0A /* background.png in Resources */,
+				B9C4D5301A05430600DE0C0A /* drop.mp3 in Resources */,
+				B9C4D5411A0543CD00DE0C0A /* whitebg@2x.png in Resources */,
+				B9C4D5331A05430600DE0C0A /* theme.mp3 in Resources */,
+				B9C4D5311A05430600DE0C0A /* gameover.mp3 in Resources */,
 				B9C4D5111A053F1A00DE0C0A /* Images.xcassets in Resources */,
-				B9C4D5081A053F1A00DE0C0A /* GameScene.sks in Resources */,
+				B9C4D5321A05430600DE0C0A /* levelup.mp3 in Resources */,
+				B9C4D5351A05433F00DE0C0A /* Sprites.atlas in Resources */,
+				B9C4D52F1A05430600DE0C0A /* bomb.mp3 in Resources */,
 				B9C4D50F1A053F1A00DE0C0A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9C4D50A1A053F1A00DE0C0A /* GameScene.swift in Sources */,
+				B9C4D5431A054EB500DE0C0A /* Array2D.swift in Sources */,
+				B9C4D5451A0585B600DE0C0A /* Block.swift in Sources */,
 				B9C4D50C1A053F1A00DE0C0A /* GameViewController.swift in Sources */,
 				B9C4D5061A053F1A00DE0C0A /* AppDelegate.swift in Sources */,
 			);
