@@ -28,6 +28,7 @@
 		B9C4D5411A0543CD00DE0C0A /* whitebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C4D53B1A0543CD00DE0C0A /* whitebg@2x.png */; };
 		B9C4D5431A054EB500DE0C0A /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C4D5421A054EB500DE0C0A /* Array2D.swift */; };
 		B9C4D5451A0585B600DE0C0A /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C4D5441A0585B500DE0C0A /* Block.swift */; };
+		B9C4D5471A0590D400DE0C0A /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C4D5461A0590D400DE0C0A /* Shape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		B9C4D53B1A0543CD00DE0C0A /* whitebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitebg@2x.png"; sourceTree = "<group>"; };
 		B9C4D5421A054EB500DE0C0A /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		B9C4D5441A0585B500DE0C0A /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		B9C4D5461A0590D400DE0C0A /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				B9C4D5031A053F1A00DE0C0A /* Supporting Files */,
 				B9C4D5421A054EB500DE0C0A /* Array2D.swift */,
 				B9C4D5441A0585B500DE0C0A /* Block.swift */,
+				B9C4D5461A0590D400DE0C0A /* Shape.swift */,
 			);
 			path = Tetris;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9C4D50A1A053F1A00DE0C0A /* GameScene.swift in Sources */,
+				B9C4D5471A0590D400DE0C0A /* Shape.swift in Sources */,
 				B9C4D5431A054EB500DE0C0A /* Array2D.swift in Sources */,
 				B9C4D5451A0585B600DE0C0A /* Block.swift in Sources */,
 				B9C4D50C1A053F1A00DE0C0A /* GameViewController.swift in Sources */,
